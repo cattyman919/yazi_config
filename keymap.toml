@@ -1,0 +1,23 @@
+[[manager.prepend_keymap]]
+on  = "K"
+run = "plugin --sync parent-arrow --args=-1"
+
+[[manager.prepend_keymap]]
+on  = "J"
+run = "plugin --sync parent-arrow --args=1"
+
+[[manager.prepend_keymap]]
+on   = "!"
+run  = 'shell "cmd.exe" --block --confirm'
+desc = "Open CMD here"
+
+[[manager.prepend_keymap]]
+on = ["C"]
+run = "plugin ouch --args=zip"
+desc = "Compress with ouch"
+
+[[manager.prepend_keymap]]
+on   = "T"
+run  = "plugin --sync max-preview"
+# run  = "plugin max-preview"
+desc = "Maximize or restore preview"
