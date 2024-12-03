@@ -2,10 +2,6 @@
 	path = flavors/onedark.yazi
 	url = https://github.com/BennyOe/onedark.yazi.git
 
-[submodule "plugins/omp.yazi"]
-	path = plugins/omp.yazi
-	url = https://github.com/saumyajyoti/omp.yazi.git
-
 [submodule "plugins/ouch.yazi"]
 	path = plugins/ouch.yazi
 	url = https://github.com/ndtoan96/ouch.yazi.git
